@@ -1,0 +1,53 @@
+body    {
+
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    background-size: cover;
+
+}
+
+.form{
+    width: 85%;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    right: 30%;
+    transform: translate(20%, 20%);
+    padding: 30px 40px;
+    box-sizing: content-box;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    
+}
+
+.text-box{
+    border:1px solid gray;
+    margin: 8px 0;
+    padding: 12px 12px;
+}
+.text-box label{
+    display:block;
+    text-align: center;
+}
+
+.text-box input, .text-box textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.button{
+    display: inline-block;
+    background: #19ea9a;
+    outline: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 50%;
+
+}
